@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0.1rem;
+    padding: 0.5rem;
+    text-align: center;
+    background: linear-gradient(120deg, #e42416b6, #f18888b6, #f188bcb6); 
+}
+.content {
+    border: 2px solid rgb(241, 42, 142);
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.charaters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0.5rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 0.5rem 0;
+    width: 20rem;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(238, 186, 126), rgb(236, 173, 89));
+    box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.86);
+}
+
+.image {
+    margin: 0.5rem;
+    width: 10rem;
+    border-radius: 10%;
+    border: 2px solid #b86b2c;
+    box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.86);
+}
+
+.description {
+    padding-top: 0.8rem;
+    padding-left: 0.2rem;
+}
+
+.especie, .status, .location {
+    padding-left: 0.5rem;
+}
+
